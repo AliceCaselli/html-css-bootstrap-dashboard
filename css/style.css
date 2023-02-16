@@ -1,0 +1,36 @@
+.container-fluid.__start-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.navbar.bg-body-tertiary.__my-nav{
+    flex-wrap: nowrap;
+    height: 80px;
+    width: 100%;
+}
+
+.d-flex.__my-form-nav{
+    width: 100%;
+    position: relative;
+}
+
+
+.d-flex.__my-form-nav::before{
+    content: "\F52A";
+
+    position: absolute;
+    top: 0;
+}
+
+.__icons-color{
+    color: #5b5858;
+}
+
+
+header{
+    width: 150px;
+    height: calc(100% - 80px);
+    background: #142a40;
+    background-image: url(/img/sidebar-bg.png);
+}
